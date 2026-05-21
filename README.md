@@ -37,8 +37,11 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
-full adder
+**Full Adder**
 <img width="526" height="625" alt="image" src="https://github.com/user-attachments/assets/3bc8288d-d943-40e3-b444-56ba5dfc2b95" />
+**Full Subtractor**
+<img width="697" height="667" alt="image" src="https://github.com/user-attachments/assets/85947dd9-e514-4160-96f4-299cafe923c9" />
+
 
 
 **Procedure**
@@ -54,7 +57,7 @@ Simulate the program using a testbench and verify the outputs with the truth tab
 
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by:Sahana.s RegisterNumber:212225240130
 */
-full adder
+**Full Adder**
 ```
    module exp3de(a,b,cin,sum,carry);
    input a,b,cin;
@@ -63,14 +66,23 @@ full adder
    assign carry= ((a&b)| (cin&(a^b)));
    endmodule
    ```
+**Full Subtractor**
+```
+  module exp3desub(a,b,bin,difference,borrow);
+  input a,b,bin;
+  output difference,borrow;
+  assign difference=((a^b)^bin);
+  assign borrow=((~a&b)|(bin&(~(a^b))));
+  endmodule
+```
 
 **RTL Schematic**
-full adder
+**Full Adder**
 <img width="917" height="437" alt="Screenshot 2026-05-21 111814" src="https://github.com/user-attachments/assets/013b444b-2349-4a55-82ec-e4ea30e718a1" />
 
 
 **Output Timing Waveform**
-Full adder
+**Full Adder**
 <img width="1907" height="917" alt="image" src="https://github.com/user-attachments/assets/16a9bcb6-88bc-4e25-aa3f-6a059a7b36b2" />
 
 
