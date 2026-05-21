@@ -79,11 +79,16 @@ Simulate the program using a testbench and verify the outputs with the truth tab
 **RTL Schematic**
 **Full Adder**
 <img width="917" height="437" alt="Screenshot 2026-05-21 111814" src="https://github.com/user-attachments/assets/013b444b-2349-4a55-82ec-e4ea30e718a1" />
+**Full Subtractor**
+<img width="927" height="392" alt="image" src="https://github.com/user-attachments/assets/e3e00293-8ec8-4555-beeb-5167eb116821" />
 
 
 **Output Timing Waveform**
 **Full Adder**
 <img width="1907" height="917" alt="image" src="https://github.com/user-attachments/assets/16a9bcb6-88bc-4e25-aa3f-6a059a7b36b2" />
+**Full Subtractor**
+<img width="1912" height="527" alt="image" src="https://github.com/user-attachments/assets/e401ae40-6861-4bda-abf4-f4db0a4d08c8" />
+
 
 
 **Result:**
